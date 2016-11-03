@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const config = require('../config/token.js');
 
-const token = System.getenv("TOKEN") || config.token;
+const token = process.env.TOKEN || config.token;
 
 module.exports={
 	runBot: (req, res)=> {
