@@ -13,6 +13,6 @@ module.exports={
 		  let photo = 'why-js.png';
 		  bot.sendPhoto(chatId, photo, {caption: 'I <3 JS'});
 		});
-		console.log('runned')
+		res.send('running:)')
 	}
 }
