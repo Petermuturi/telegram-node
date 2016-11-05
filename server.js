@@ -6,6 +6,6 @@ app.get('/', bot.runBot);
 
 let port = Number(process.env.PORT || 3000);
 
-app.listen(port, function(){
-	console.log('server listening on port 3000');
+app.listen(port, ()=> {
+	console.log ('server listening on port 3000');
 });
